@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/*
+* ユーザーページ
+*/
+.login-main-container {
+    margin: 20px auto;
+    width: 300px;
+}
+.login-main-container form div {
+    margin-bottom: 10px;
+}
+.page-link {
+    text-align: right;
+}
+.main-container {
+    margin: 0 auto;
+    width: 80%;
+}
+.products-table {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.page-title {
+    margin-top: 20px;
+    margin-left: 60px;
+    border-bottom: 1px solid black;
+    width: 230px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.message-container {
+    padding-left: 60px;
+    font-size: 1.5em;
+    justify-content: center;
+}
+.item {
+    width: 30%;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.item-info {
+    width: 100%;
+}
+.stock_message {
+    color: red;
+}
+.main-menu {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b7a3a3;
+    color: white;
+}
+.main-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+html {
+    position: relative;
+}
+.main-menu {
+    height: 80px;
+}
+.site-title {
+    font-size: 2em;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+.site-title:hover {
+    opacity: 50%;
+}
+
+.site-nav ul {
+    display: flex;
+    vertical-align: middle;
+    padding-right: 30px;
+}
+
+.site-nav li {
+    list-style: none;
+    margin-right: 10px;
+    padding-top: 3px;
+}
+
+.site-nav ul li a:hover {
+    opacity: 50%;
+}
+#buy-btn {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+#buy-btn:hover {
+    opacity: 50%;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 130px; /* Set the fixed height of the footer here */
+    /* line-height: 130px; Vertically center the text there */
+    background-color: #f5f5f5;
+}
+.footer-menu {
+    display: flex;
+    font-size: 1.1em;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+.footer-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-site-title {
+    font-size: 1.5rem;
+    width: 80px;
+    margin: 0 auto;
+
+}
+.footer-site-title:hover {
+    opacity: 50%;
+}
+.cart-container {
+    width: 70%;
+    margin: 0 auto;
+}
+.cart-table {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.cart-table th {
+    width: 25%;
+}
+.cart-table td {
+    width: 25%;
+}
